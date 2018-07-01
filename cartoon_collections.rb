@@ -8,15 +8,8 @@ end
 def summon_captain_planet (calls)
   calls.collect do |phrase|
     phrase.capitalize
-    
-  
-  
-  
-  new_array=[]
-  array.each do |element|
-    new_array.push(element.capitalize)
   end
-  new_array
+  array
 end
 
 
