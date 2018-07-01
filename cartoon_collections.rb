@@ -19,7 +19,11 @@ end
 
 def find_the_cheese (food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  food.find do |cheese|
-    cheese == cheese_types
+  cheese_types.do |cheese|
+    if food.include?(cheese)
+      return cheese
+    elsif
+      return nil 
+    end 
   end 
 end
