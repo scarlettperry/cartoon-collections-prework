@@ -9,7 +9,6 @@ def summon_captain_planet (calls)
   calls.collect do |phrase|
     phrase.capitalize+"!"
   end
-  calls 
 end
 
 
